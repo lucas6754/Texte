@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Controle Arcade</title>
+    <style>
+        /* Reset de estilos básicos para garantir consistência entre navegadores */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 0;
+            margin: 20px 0;
+        }
+
+        section h2 {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para a seção "Sobre o Projeto" */
+        .project-info {
+            text-align: justify; /* Justifica o texto */
+            padding: 0 20px; /* Adiciona espaçamento nas laterais para melhorar a leitura */
+        }
+
+        .project-info p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para a seção "Integrantes da Equipe" */
+        .team-members {
+            text-align: center;
+        }
+
+        .team-members h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para a seção de fotos */
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .photo-gallery .photo {
+            flex: 1;
+            max-width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .photo-gallery .photo img {
+            max-width: 100%;
+        }
+
+        .photo-gallery .photo:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Projeto Controle Arcade</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre o Projeto</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#fotos">Fotos</a></li>
+                    <div class="header">
+                       <a href="2 site.html">Videos</a></li>
+                      
+                      <div class="header">
+                        <a href="https://forms.gle/ifW424hVd9MFHQYJ9">Fazer Cadastro</a>
+                      </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Projeto</h2>
+            <div class="project-info">
+                <p>
+                    O projeto inicialmente concebido como um controle arcade personalizado a partir de uma placa de teclado logo se deparou com inúmeras dificuldades técnicas. A adaptação da placa de teclado para atender às necessidades de um controle arcade revelou-se um desafio complexo. No entanto, com determinação e perseverança, a equipe de desenvolvimento não desistiu. Em vez disso, surgiu uma nova e promissora ideia: utilizar a placa de um controle USB. Essa mudança de abordagem abriu possibilidades empolgantes para o projeto, oferecendo maior compatibilidade e flexibilidade. O projeto agora está em um estágio emocionante de desenvolvimento, explorando o potencial de criar um controle arcade personalizado que proporcionará uma experiência de jogo única para os entusiastas de jogos de computador.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe">
+        <div class="container">
+            <h2>Integrantes da Equipe</h2>
+            <p class="team-members">
+                Lucas, Felipe Souza, Felipe Silva, Matheus Izac e Pedro
+            </p>
+        </div>
+    </section>
+
+    <section id="fotos">
+        <div class="container">
+            <h2>Fotos do Projeto</h2>
+            <div class="photo-gallery">
+                <div class="photo">
+                    <img src="Teclado.jpg" alt="Foto 1">
+                </div>
+                <div class="photo">
+                    <img src="Caixa.jpg" alt="Foto 2">
+                </div>
+                <div class="photo">
+                    <img src="De cima.jpg" alt="Foto 3">
+                </div>
+                <!-- Adicione mais fotos conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 E.E Professor Wandeley Ferreira de Rezende</p>
+        </div>
+    </footer>
+</body>
+</html>
